@@ -21,3 +21,18 @@ App应用程序通过 Retrofit 请求网络，实际上是使用 Retrofit 接口
 
 
 
+
+
+
+动态代理在 Retrofit 中的使用
+
+https://blog.csdn.net/yingpaixiaochuan/article/details/85232965
+
+模拟实现retrofit的动态代理
+https://www.jianshu.com/p/fe713a398078
+
+
+Retrofit流程与设计模式(图)
+https://blog.csdn.net/weixin_37577039/article/details/78546591
+
+https://www.cnblogs.com/younghao/p/6078156.html
