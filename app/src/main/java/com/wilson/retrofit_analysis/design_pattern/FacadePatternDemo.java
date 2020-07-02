@@ -5,6 +5,12 @@ package com.wilson.retrofit_analysis.design_pattern;
  * 外观模式 隐藏系统的复杂性 向客户端提供访问系统的接口
  * 优点  减少系统相互依赖 提供了灵活性,安全性
  * 缺点  不符合开闭原则 修改东西比较麻烦
+ *
+ *
+ * retrofit 使用的外观模式
+ *     调用create 的时候使用了外观模式 隐藏了请求参数的一些逻辑
+ *
+ *
  */
 public class FacadePatternDemo {
 

@@ -3,7 +3,18 @@ package com.wilson.retrofit_analysis.design_pattern;
 /**
  * https://www.runoob.com/design-pattern/strategy-pattern.html
  * 策略模式
+ * 定义一组算法，将每个算法都封装起来，并且使他们之间可以互换
+ * Retrofit 采用了策略模式
+ * 提供了四种CallAdapterFactory：
+ * ExecutorCallAdapterFactory（默认）、
+ * GuavaCallAdapterFactory、
+ * Java8CallAdapterFactory、
+ * RxJavaCallAdapterFactory
+ *
+ *
+ * 链接：https://juejin.im/post/5a9f36acf265da23a1416cb6
  */
+
 public class StrategyPatternDemo {
 
     public static void main(String[] arr) {
@@ -30,6 +41,7 @@ class Content {
 
 
     public void executeStrategy(int num1, int num2) {
+
         this.strategy.doOperation(num1, num2);
     }
 }

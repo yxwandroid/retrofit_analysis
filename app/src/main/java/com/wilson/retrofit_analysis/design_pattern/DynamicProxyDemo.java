@@ -13,6 +13,14 @@ import java.lang.reflect.Proxy;
  * 而后我们便可以通过这个代理类实例调用代理类的方法，
  * 对代理类的方法的调用实际上都会调用中介类(调用处理器)的invoke方法，
  * 在invoke方法中我们调用委托类的相应方法，并且可以添加自己的处理逻辑。
+ *  retrofit 的动态代理
+ *  https://blog.csdn.net/yingpaixiaochuan/article/details/85232965
+ *  https://cloud.tencent.com/developer/article/1430606
+ *
+ *
+ *   retrofit为什么使用动态代理模式
+ *      1,首先应用的接口请求有很多,通过动态代理模式,能为每个接口生成代理类,实现了我们的接口,不用关系具体的请求细节是什么,只需要我们传递接口给retrofit就行了,
+ *
  *
  */
 public class DynamicProxyDemo {

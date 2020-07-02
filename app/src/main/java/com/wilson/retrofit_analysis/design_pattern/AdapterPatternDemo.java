@@ -4,7 +4,12 @@ package com.wilson.retrofit_analysis.design_pattern;
  * https://www.runoob.com/design-pattern/adapter-pattern.html
  * 适配器模式
  *  将一个类的接口转换成客户希望的另外一个接口。
+ *  https://www.jianshu.com/p/f1b512759d6e
+ *
+ *
+ * retrofit 使用的适配器模式
  */
+
 public class AdapterPatternDemo {
 
 
